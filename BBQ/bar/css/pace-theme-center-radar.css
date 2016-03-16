@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+  margin: 0 auto;
+  -webkit-user-select: none;
+  font-size: 150%;
+}
+body {
+  background-color: #333;
+}
+
+/* This is a compiled file, you should be editing the file in the templates directory */
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+  z-index: 9999999999;
+  position: fixed;
+  height: 112px;
+  width: 112px;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("../images/loader-img.png") no-repeat scroll center center / 25% 60% #000000;
+  border-radius:50%;
+  border:2px solid #7690ac;
+}
+
+.pace:before {
+    border-radius: 50%;
+    bottom: 0;
+    box-shadow: 0 0 0 4px #7690ac  inset;
+    content: "";
+    height: 100%;
+    left: -10px;
+    margin: 0 auto;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    top: -10px;
+    width: 100%;
+}
+
+.pace.pace-inactive .pace-activity {
+  display: none;
+}
+
+.pace .pace-activity {
+  position: fixed;
+  z-index: 2000;
+  display: block;
+  position: absolute;
+  left: -7px;
+  top: -7px;
+  height: 115px;
+  width: 115px;
+  display: block;
+  border-width: 5px;
+  border-style: double;
+  border-color: #3980b7 transparent transparent;
+  border-radius: 50%;
+
+  -webkit-animation: spin 1s linear infinite;
+     -moz-animation: spin 1s linear infinite;
+       -o-animation: spin 1s linear infinite;
+          animation: spin 1s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  100% { -webkit-transform: rotate(359deg); }
+}
+
+@-moz-keyframes spin {
+  100% { -moz-transform: rotate(359deg); }
+}
+
+@-o-keyframes spin {
+  100% { -moz-transform: rotate(359deg); }
+}
+
+@keyframes spin {
+  100% {  transform: rotate(359deg); }
+}

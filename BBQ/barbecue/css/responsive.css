@@ -1,0 +1,995 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and (min-width:1399px) and (max-width:1600px) {
+	
+	.dt-sc-portfolio-carousel-wrapper .carousel-arrows .prev-arrow { left: 50px;}	
+	.dt-sc-portfolio-carousel-wrapper .carousel-arrows .next-arrow { right: 50px;}
+	
+	.dt-sc-menuitems-carousel-wrapper > ul { bottom: 28%; right: 8%;}
+	
+	.carousel-arrows .prev-arrow { left: 25px;}	
+	.carousel-arrows .next-arrow { right: 25px;}
+}
+
+@media only screen and (min-width:1121px) and (max-width:1399px) {
+	
+	.container {width:1060px;}
+	
+	.boxed .wrapper, .boxed #header , .boxed #header.dt-sticky-menu, .boxed .is-sticky header .dt-sticky-menu { width:1080px; }
+	
+	#logo { width: 22%;}
+	
+	.responsive-nav { display:none; }
+	
+	#main-menu .group.right-nav { right: 90px; }	
+	#main-menu ul li { margin-left: 6px;}	
+
+	.banner-post { width: 92%;}
+	
+	.sb-slidebar { display: none !important;}
+	
+	.portfolio-carousel .banner-post:hover .post-thumb { height: 185px;}
+	
+	.banner-post .post-thumb img { width: 100%;}
+	
+	.fullwidthbanner-container h2 { margin: 0; padding-bottom: 30px;}	
+	
+	.portfolio-thumb{ width:40%;}	
+	.portfolio-details{ width:54%;}
+	
+	.dt-sc-sorting-container a { padding: 0 0 0 15px;}
+	
+	.dt-sc-portfolio-carousel-wrapper .carousel-arrows .prev-arrow { left: 30px;}	
+	.dt-sc-portfolio-carousel-wrapper .carousel-arrows .next-arrow { right: 30px;}
+	
+	.dt-sc-menuitems-carousel-wrapper > ul { bottom: 30%; right: 5%;}
+		
+	.image-overlay { height: 213px; left: 1px; top: 14px; width: 213px;}
+	
+	.dt-sc-custom-service > h5{ width:54%;}
+	
+	.hexagon-shapes:before { right: 148px; width: 100px;}	
+	.hexagon-shapes { width: 65%;}
+	
+	.slider-controls{ margin-top:0;}
+	
+	.menu-item-list .slider-controls { margin-top: 60px;}
+	
+	.carousel-arrows a img { max-width: 80%;}	
+	.carousel-arrows .prev-arrow { left: 5px;}	
+	.carousel-arrows .next-arrow { right: 5px;}
+		
+	#news .carousel-arrows a { bottom: 290px;}
+	
+	.contact-info, .contact-form { width: 90%;}
+	
+	.receipe-slider iframe { height: 200px;}
+	
+	#map { height: 500px;}
+	
+	.map-overlay { padding: 70px 0 80px;}
+	
+	.mailchimp-form > input[type="email"] { width: 80%;}	
+	.mailchimp-form input.medium { padding: 12px 30px;}
+	
+	.contact-form .enquiry-form p input[type="submit"]:hover { font-size: 17px;}
+	
+}
+
+@media only screen and (min-width:960px) and (max-width:1120px) {
+	
+	/*----*****---- << boxed >> ----*****----*/	
+	
+	.boxed .wrapper, .boxed #header { width:980px; }
+	
+	.container , .boxed .wrapper .banner .container , .banner .caption h2 , .boxed .no-header-bg #header-sticky-wrapper.sticky-wrapper header.dt-sticky-menu .container { width:900px; }
+	
+	.boxed #header.dt-sticky-menu, .boxed .is-sticky header .dt-sticky-menu , .boxed .wrapper { width:968px; }		
+	.boxed #menu-container { width: 100%;}	
+	.boxed #header:before { width: 98.2%;}	
+	.boxed #menu-container:before{ left:-30px;}	
+	.boxed #menu-container:after{ right:-28px;}
+	
+	
+	/*----*****---- << boxed-Ends >> ----*****----*/		
+	
+	#logo { left: 10px; width: 24%;}
+	
+	.responsive-nav { display:none; }
+	
+	#main-menu .group.left-nav { left: 5px;}	
+	#main-menu .group.right-nav { margin: 0; right: 70px;}
+	
+	#main-menu ul li { margin-left: 15px;}
+	#main-menu ul li a { font-size: 15px;}
+	
+	#header:before{ width:99.4%;}
+	
+	.banner-post { width: 92%;}
+	
+	.fullwidthbanner-container h2 { margin: 0; padding-bottom: 30px;}
+	
+	.portfolio-carousel .banner-post:hover .post-thumb {    height: 185px;}
+	
+	.dt-sc-sorting-container a { font-size: 18px; padding: 0 0 0 10px; width: 19%;}
+	
+	.sb-slidebar{ display: none !important;}
+	
+	.banner-post .post-thumb img { width: 100%;}
+	
+	.main-title > p:before, .main-title > p:after{ width:28%;}
+	
+	.portfolio-carousel .entry-detail > h6 span { font-size: 14px;}	
+	.portfolio-carousel .entry-detail > h6 span:after { right: 10px; top: 12px;}	
+	.portfolio-carousel .entry-detail > h6 span:before{ left:10px; top:12px;}	
+	.portfolio-carousel .entry-detail > h6:before{ top:14px;}	
+	.portfolio-carousel .column { margin-left: 25px;}
+
+	.portfolio-thumb > a{ width:96%;}	
+	.portfolio-thumb{ width:40%;}
+	
+	.portfolio-details{ width:54%;}
+	
+	.dt-sc-menuitems-carousel-wrapper > ul, .boxed .dt-sc-menuitems-carousel-wrapper > ul { bottom: 30%; right: 5%;}
+	
+	.dt-sc-portfolio-carousel-wrapper .carousel-arrows .prev-arrow { left: 5px;}	
+	.dt-sc-portfolio-carousel-wrapper .carousel-arrows .next-arrow { right: 5px;}
+	
+	.dt-sc-team { width: 100%;}
+	
+	.team-content p {    line-height: 22px;    margin-bottom: 24px;}	
+
+	.image-overlay { height: 198px; width: 198px;}
+	
+	.dt-sc-team .team-thumb > img, .receipe-slider .receipe-thumb a img { transform: scale(1.15); -webkit-transform: scale(1.15); -moz-transform: scale(1.15); -o-transform: scale(1.15); -ms-transform: scale(1.15);}
+	
+	.dt-sc-social-icons a { margin: 0 16px;}
+	
+	.carousel-arrows a img { max-width: 25px;}	
+	.carousel-arrows .prev-arrow { left: 5px;}	
+	.carousel-arrows .next-arrow { right: 5px;}
+	
+	#news .carousel-arrows a { bottom: 298px;}
+	
+	.contact-form .enquiry-form p input[type="submit"]:hover { font-size: 17px;}
+	
+	.news-letter .mailchimp-form > input[type="email"] { float: right; left: 0; width: 435px;}	
+	.news-letter .mailchimp-form .dt-sc-button { padding: 18px 15px; right: 0;}
+	
+	.hexagon-shapes:before { right: 142px; width: 84px;}	
+	.hexagon-shapes { width: 70%;}
+	
+	.slider-controls{ margin-top:0;}
+	
+	.receipe-thumb iframe { height: 190px;}
+	
+	.menu-item-list .slider-controls { margin-top: 60px;}
+
+	.dt-sc-custom-service > h5{ width:58%;}
+	
+	.dt-sc-portfolio-carousel-wrapper .carousel-arrows a{ width:30px; bottom: 240px;}
+	
+	.mailchimp-form > input[type="email"] { width: 80.7%;}
+	
+	.contact-info, .contact-form { width: 90%;}	
+	.contact-info h3, .contact-form > h3 { margin-bottom: 10px;}
+	.contact-info .dt-sc-button { font-size: 17px;}
+	
+	.dt-sc-call-us { margin-bottom: 12px;}
+	
+	.map-overlay { padding: 70px 0 100px;}
+	
+	.mailchimp-form input[type="email"], .enquiry-form textarea, .enquiry-form input { padding: 14px 12px;}
+	
+	#footer .carousel-arrows a { top: 230px;}
+	
+	.enquiry-form p { margin: 0 0 11px;}
+	
+	/* Blog-page */
+	
+	#primary.with-right-sidebar { margin-right: 30px; width: 65%;}
+	
+	#secondary { width: 30%;}
+	
+	.entry-author-image { float: left; margin-right: 20px;}
+	
+	.author-desc { width: 78%;}
+	
+	#search-form input[type="email"] { width: 100%;}	
+	#search-form .dt-sc-button { font-size: 16px; line-height: 14px; padding: 14px 18px; text-shadow: none;}	
+}
+
+@media only screen and (min-width:768px) and (max-width:959px) {
+	
+	#logo { left: 40px; top: -15px; width: 25%;}
+	
+	.responsive-nav .open-nav ul { display:none; }	
+	.responsive-nav { display:none; }
+	
+	#main-menu .group.left-nav { left: 15px;}	
+	#main-menu .group.right-nav { margin: 0; right: 5px;}	
+	#main-menu ul li { margin: 0 15px 0 0;}
+	#main-menu ul li a { font-size: 14px;}
+	
+	.main-title > p:before, .main-title > p:after{ width:24%;}
+	
+	#menu-container { width:99%;}	
+	#menu-container:before{ left:-28px;}	
+	#menu-container:after{ right:-20px;}
+	
+	/*----*****---- << boxed >> ----*****----*/	
+	
+	.container , .boxed .wrapper .banner .container , .boxed .no-header-bg #header-sticky-wrapper.sticky-wrapper header.dt-sticky-menu .container { width:710px; }
+	
+	.boxed #header.dt-sticky-menu, .boxed .is-sticky header .dt-sticky-menu , .boxed .wrapper  { width:740px; }	
+	.boxed #header { width: 99.4%;}
+	
+	.boxed #menu-container { width: 98%;}	
+	.boxed #header:before { width: 98.2%;}	
+	.boxed #menu-container:before{ left:-28px;}	
+	.boxed #menu-container:after{ right:-16px;}
+	.boxed #main-menu .group.right-nav { margin: 0; right: 0;}
+	.boxed .receipe-slider{ width:96%;}		
+	.boxed .receipe-thumb iframe { height: 142px; max-width: 95%;}	
+	
+	.boxed .dt-sc-portfolio-carousel-wrapper .carousel-arrows .prev-arrow { left: 10px;}	
+	.boxed .dt-sc-portfolio-carousel-wrapper .carousel-arrows .next-arrow { right: 10px;}
+	
+	/*----*****---- << boxed-ends >> ----*****----*/
+	
+	.fullwidthbanner-container h2 { font-size: 35px; margin: 0; padding-bottom: 30px;}
+	
+	#main-content { padding: 0;}
+	
+	#header:before{ width: 99.2%;}
+	
+	.parallax-spacing { padding-bottom: 30px;}
+	
+	.dt-sc-portfolio-carousel-wrapper .dt-sc-one-third { margin-left: 24px; width: 338px;}
+	
+	.sb-slidebar { display: none !important;}
+	
+	#home .dt-sc-portfolio-carousel-wrapper .carousel-arrows img { max-width: 85%;}
+	
+	.dt-sc-portfolio-carousel-wrapper .carousel-arrows .prev-arrow { left: 0;}	
+	.dt-sc-portfolio-carousel-wrapper .carousel-arrows .next-arrow { right: 0;}
+	
+	.portfolio-thumb > a{ width:96%;}
+	
+	.portfolio-details .post-meta { margin-bottom: 10px;}
+	
+	.portfolio-details > p { margin-bottom: 15px;}
+		
+	.portfolio-thumb{ width:36%;}	
+	.portfolio-details{ width:56%;}
+	
+	.dt-sc-menuitems-carousel-wrapper > ul { display: none !important;}	
+	.dt-sc-menuitems-carousel-wrapper .caroufredsel_wrapper { height: 740px !important;}
+	
+	.menu-item-list { margin-bottom: 0;}
+	
+	.carousel-arrows a { max-width: 22px;}
+	
+	#footer .carousel-arrows a { top: 245px;}
+	
+	.dt-sc-team { width: 100%;}
+	
+	.dt-sc-social-icons a { margin:0 10px;}
+	
+	.image-overlay { height: 162px; width: 162px;}
+	
+	.dt-sc-team .team-thumb > img, .receipe-slider .receipe-thumb a img { transform: scale(1.18); -webkit-transform: scale(1.18); -moz-transform: scale(1.18); -o-transform: scale(1.18); -ms-transform: scale(1.18);}
+	
+	.carousel-arrows .prev-arrow { left: 10px;}	
+	.carousel-arrows .next-arrow { right: 10px;}
+	
+	#news .carousel-arrows a { bottom: 345px;}
+	
+	.dt-sc-sorting-container { margin-bottom: 30px; text-align: center;}	
+	.dt-sc-sorting-container a { display: inline-block; float: none; margin: 0 0 30px; padding: 0 0 0 10px;}
+	
+	.catelog-menu { margin: 0 0 30px 8px;}
+	
+	.popular-posts-widget .catelog-thumb { float: left; margin: 0 7px 0 0; width: 30%;}	
+	.popular-posts-widget .categories-img{  width: 62%;}
+	
+	.entry-title > h5, .entry-title > h6, .team-detail > h5, .team-detail > h6, .dt-sc-team p { text-align: center;}
+	
+	.dt-sc-one-fourth { margin-bottom: 25px; width: 48%;}
+	
+	.hexagon-shapes { width: 42%;}	
+	.hexagon-shapes:before { display: none;}
+	
+	.news-letter .newsletter-text { line-height: 25px;}	
+	.news-letter .mailchimp-form > input[type="email"] { float: left; left: 112px; width: 370px;}	
+	.news-letter .mailchimp-form .dt-sc-button { padding: 18px 15px; right: 60px;}
+	
+	.receipe-thumb iframe { height: 150px;}	
+	.receipe-details .post-meta .date, .post-meta .author, .widget_recent_entries ul li p.date { margin: 0 10px 0 0; padding: 0 8px 0 0;}
+	
+	.dt-sc-service-carousel .column { margin-left: 15px;}
+	
+	.slider-controls{ margin-top:0;}
+	
+	.menu-item-list .slider-controls { margin-top: 60px;}
+	
+	.dt-sc-custom-service > h5{ width: 65%; font-size: 25px;}
+	
+	.contact-form .enquiry-form p input[type="submit"]:hover { font-size: 14px;}
+	
+	.map-overlay { padding: 90px 0 100px;}	
+	.map-overlay .container { width: 90%;}
+	
+	.contact-info, .contact-form { padding: 15px 20px; width: 90%;}
+	
+	#map { height: 500px;}
+	
+	.enquiry-form p { margin-bottom: 10px;}
+	
+	.mailchimp-form input[type="email"], .enquiry-form textarea, .enquiry-form input { padding: 14px 12px;}
+	
+	.contact-info ul li { line-height: 22px;}	
+	.contact-info h3, .contact-form > h3 { margin-bottom: 15px;}
+	
+	.dt-sc-call-us { margin-bottom: 11px;}
+	
+	.team-content .underline { display: none;}	
+	.team-content .dt-sc-hr-invisible-large { display: none;}	
+	.team-content p { line-height: 21px; margin-bottom: 12px;}
+	
+	.contact-info .dt-sc-button { font-size: 14px; margin-bottom: 10px;}
+	
+	.flickr_badge_image { float: left; margin: 0 12px 7px 0; padding: 0; width: 28%;}
+	
+	.mailchimp-form { width: 92%;}	
+	.mailchimp-form > input[type="email"] { margin-bottom: 5px; padding: 15px 0 15px 12px;}	
+	.mailchimp-form input[type="submit"], .enquiry-form p input[type="submit"] { font-size: 14px; padding: 13px 5px; }
+	
+	.dt-sc-testimonial blockquote q { line-height:21px;}
+	
+	#footer .caroufredsel_wrapper { height: 265px !important;}
+	
+	/* Blog-page */
+	
+	#primary.with-right-sidebar { margin-right: 30px; width: 65%;}
+	
+	#secondary { width: 30%;}
+	
+	.blog-entry .receipe-details h2 { font-size: 20px;}
+	
+	.commententries h4, #respond h3, .post-author-details h3 { font-size: 22px;}
+	
+	.author-desc { float: left; width: 75%;}
+	
+	.entry-author-image { float: left; margin-right: 15px;}
+	
+	#secondary h3.widgettitle { padding: 15px 0;}
+
+	.widgettitle > span { font-size: 18px; padding: 0 0 0 10px;}
+	
+	.related-posts-widget h2, .popular-posts-widget h2 { font-size: 16px; margin-bottom: 10px;}
+	
+	.widget.widget_recent_entries .recent-posts-widget .post-thumb { width: 60px; margin: 0 8px 0 0;}
+	
+	#secondary .widget_recent_entries ul li { padding: 5px 0;}	
+	#search-form .dt-sc-button { font-size: 16px; line-height: 14px; padding: 14px 15px; text-shadow: none;}	
+	#search-form > input { font-size: 11px;}
+}	
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	.container { width:420px; }	
+	
+	.banner-content { top:12%;}	
+	.banner-content h3 { font-size: 24px; top: 1em;}	
+	.banner-content p { font-size: 15px; padding: 5px 15px;}
+	
+	nav#main-menu { display:none; }
+	
+	.sb-slidebar { display: none !important;}
+	
+	.responsive-nav { display:block; }	
+	.responsive-nav .open-nav ul { display:none; }
+	
+	.fullwidthbanner-container h2 { font-size: 35px; line-height: 54px; margin: 0; padding-bottom: 30px;}	
+	
+	.banner-post { float: none; margin: 0 auto; width: 78%;}	
+	.banner-post .post-thumb img { width: 100%;}
+	
+	.carousel-arrows a { max-width: 30px;}
+	
+	.dt-sc-menuitems-carousel-wrapper > ul { display: none !important;}
+	
+	.portfolio-carousel .entry-detail > p { padding: 0 25px;}	
+	.portfolio-carousel .column { margin-left: 20px;}
+	
+	#header .container, .boxed .wrapper, .boxed #header { width: 100%;}
+	
+	#menu-container:before, #menu-container:after { display: none;}
+	
+	.dt-sc-portfolio-carousel-wrapper .carousel-arrows .next-arrow { right: 15px;}	
+	.dt-sc-portfolio-carousel-wrapper .carousel-arrows .prev-arrow { left: 15px;}
+	
+	.carousel-arrows .prev-arrow { left: 5px;}	
+	.carousel-arrows .next-arrow { right: 5px;}	
+	.carousel-arrows a img { max-width: 30px;}
+	
+	#news .carousel-arrows a { bottom: 290px;}
+	
+	.receipe-slider iframe { height: 270px;}
+	
+	#header:before{ width:98%;}
+	
+	#logo img { float: none;}
+	
+	#header .float-right { float: none; margin: 0; padding: 0;}
+	
+    #logo { text-align: center; width: 100%;}
+	
+	.main-title > p:before, .main-title > p:after { display: none;}		
+	.main-title { padding: 50px 0;}
+	
+	.dt-sc-one-third, .dt-sc-one-half, .dt-sc-one-fourth { width: 100%;}
+	
+	.column { margin-bottom: 20px; margin-left: 0;}
+	
+	.parallax-spacing { padding-bottom: 75px;}
+	
+	.dt-sc-sorting-container { padding: 0 0 10px; text-align: center;}
+	
+	#receipes .dt-sc-sorting-container a { display: inline-block; float: none; font-size: 18px; padding: 0 0 25px;}
+		
+	.portfolio-thumb { margin-right: 0; width: 97%; margin-bottom:30px;}	
+	.portfolio-thumb > a { width: 93%;}	
+	.portfolio-details { width: 100%;}	
+	.portfolio-details > h2 { font-size: 18px; line-height: 23px; margin-bottom: 25px;}	
+	.portfolio-details p.author-thumb { padding-left: 5px;}	
+	.portfolio-details > p{ line-height:24px;}
+	
+	.catelog-menu { width: 45%;}
+	
+	.menu-item-list .caroufredsel_wrapper { height: 720px !important;}
+	
+	.team-img .column { margin: 0;}	
+	.team-thumb { width: 50%;}	
+	
+	.dt-sc-team { width: 100%;}
+	.dt-sc-team .image-overlay { height: 237px; width: 237px;}	
+	.dt-sc-team .team-detail p { margin-bottom: 40px;}
+	
+	.news-letter .newsletter-text { line-height: 25px;}
+	
+	.dt-sc-custom-service > h5 { font-size: 28px; margin-top: 30px; text-align: center; width: 100%;}	
+	.dt-sc-custom-service > h5:before { left: 0; margin: 0 auto; right: 0; top: -70px;}
+	
+	.entry-title > h5, .entry-title > h6, .team-detail > h5, .team-detail > h6, .team-detail p { text-align: center;}
+	
+	.news-letter .mailchimp-form > input[type="email"] { width: 100%;}
+	
+	.hexagon-shapes:before { display: none;}	
+	.hexagon-shapes { width: 35%;}
+	
+	.dt-sc-icon-content > p { margin-bottom: 40px;}
+	
+	.receipe-slider .receipe-thumb a img{ width:100%;}	
+	.receipe-details > h6 { width: 100%;}
+	
+	.intro-text > h5 { line-height: 35px;}
+	
+	.contact-info h3, .contact-form > h3 { font-size: 16px; margin-bottom: 12px;}	
+	.contact-info .dt-sc-button { font-size: 14px; margin-bottom:0 0 13px;}
+	
+	.mailchimp-form { width: 100%;}	
+	.mailchimp-form input[type="email"], .enquiry-form textarea, .enquiry-form input { width: 100%;}
+	.mailchimp-form > input[type="email"] { margin-bottom: 5px; padding: 15px 0 15px 12px;}	
+	.mailchimp-form input[type="submit"], .enquiry-form p input[type="submit"] { font-size: 14px; padding: 13px 30px;}
+	
+	.slider-controls{ margin-top:0;}
+	
+	.menu-item-list .slider-controls { margin-top: 60px;}
+	
+	.map-overlay .container { width: 95%;}
+	.map-overlay .dt-sc-one-half { width: 50%;}
+	
+	.contact-info, .contact-form { width: 90%; padding: 10px 20px;}	
+	.contact-info .dt-sc-w-hours li { font-size: 10px;}
+	
+	.dt-sc-call-us { font-size: 12px; margin-bottom: 8px;}
+	
+	.contact-info ul { margin-bottom: 20px;}	
+	.contact-info ul.dt-sc-w-hours { margin-bottom: 0;}
+	.contact-info ul li i { font-size: 11px; margin-right: 5px;}	
+	.contact-info li a { font-size: 12px;}
+	
+	#contact .dt-sc-social-icons li a, .dt-sc-tabs-frame-content .dt-sc-social-icons li a { height: 45px; line-height: 45px; width: 45px;}
+	
+	.dt-sc-w-hours .day { min-width: 62px; padding-right: 0;}
+	
+	.map-overlay { padding: 95px 0 100px;}
+	
+	#map { height: 530px;}
+
+	.contact-form .enquiry-form p input[type="submit"]:hover { font-size: 14px;}
+	
+	.widget{ padding-bottom:25px;}
+	
+	#my_twitter-3.widget ul { margin-bottom: 0;}
+	
+	#menu .content-wrapper .carousel-arrows { top: 372px;}
+	
+	#footer .copyright:after { display: none;}
+	
+	.copyright-content { float: none; text-align: center;}
+	
+	.dt-sc-sociable-icons { display: inline-block; float: none;}	
+	.dt-sc-sociable-icons > li:first-child { margin: 0;}
+	
+	/**Blog page**/
+	
+	#primary { margin: 0 0 30px; width: 100%;}
+	
+	#secondary { width: 100%;}
+	
+	.blog-entry .receipe-details h2 { font-size: 18px; margin-bottom: 15px;}
+	
+	.author-desc { float: left; width: 100%;}
+	.author-desc h5 { float: none;}
+	
+	.post-author-details { text-align: center;}
+	
+	.entry-author-image { float: none; margin: 0; width: 100%;}
+	
+	.commententries h4, #respond h3, .post-author-details h3 { font-size: 22px; text-align: left;}	
+	
+	#secondary h3.widgettitle { padding: 15px 0;}
+
+	.widgettitle > span { font-size: 18px; padding: 0 0 0 10px;}
+	
+	.author-name > a { font-size: 14px;}
+	
+	ul.commentlist li .commentmetadata { font-size: 12px;}
+	
+	.widget.widget_recent_entries .recent-posts-widget .post-thumb { width: 82px;}
+	
+	.related-posts-widget h2, .popular-posts-widget h2 { margin-bottom: 15px;}
+	
+	#search-form .dt-sc-button { line-height: 16px; }
+	
+	/**Boxed**/
+	
+	.boxed #header:before { width: 99%;}
+
+}
+	
+
+@media only screen and (max-width: 479px) {
+	
+	.container { width:220px; }
+	
+	#header .container, .boxed .wrapper, .boxed #header { width: 100%;}	
+	#header .float-right { float: none; margin: 0; padding: 0;}	
+	#header:before{ width:97%;}
+	
+	#menu-container:before, #menu-container:after { display: none;}
+	
+	nav#main-menu { display:none; }
+	
+	.responsive-nav { display:block; width:100%;}	
+	.responsive-nav .open-nav ul { display:none; }
+	
+	#logo { text-align: center; width: 100%;}	
+	#logo img { float: none;}
+	
+	.sb-slidebar { display: none !important;}
+	
+	.dt-sc-one-third, .dt-sc-one-half, .dt-sc-one-fourth, .dt-sc-two-third { width: 100%;}
+	
+	.column { margin-bottom: 20px; margin-left: 0;}
+	
+	#home { margin: 0 0 -30px; padding: 0 0 30px;}
+	
+	.fullwidthbanner-container h2 { font-size: 30px; line-height: 42px; margin: 0; padding-bottom: 5px;}
+	
+	.dt-sc-portfolio-carousel-wrapper .carousel-arrows .prev-arrow{ left: 2px;}	
+	.dt-sc-portfolio-carousel-wrapper .carousel-arrows .next-arrow { right: 2px;}	
+	.dt-sc-portfolio-carousel-wrapper .carousel-arrows a { bottom: 220px;}
+	
+	.banner-post { width: 94%; padding: 45px 0 0;}
+	
+	.portfolio-carousel .column { margin-left: 20px;}
+	
+	.carousel-arrows a { max-width: 25px;}
+	
+	.parallax-spacing { padding: 150px 0 50px;}
+		
+	.dt-sc-portfolio-carousel-wrapper .caroufredsel_wrapper { height: 500px !important;}
+	
+	.fullwidthbanner-container .parallax-spacing address{ font-size: 18px;}
+	
+	.banner-post:hover { margin-top: -2px;}
+	
+	.portfolio-carousel .post-meta > h5{ font-size:16px;}
+	
+	.portfolio-carousel .banner-post:hover .post-thumb { height: 155px;}
+	
+	.banner-post .post-thumb > a { width: 120%;}
+	
+	.portfolio-carousel .entry-detail { width: 100%;}	
+	.portfolio-carousel .entry-detail > h6 span { font-size: 12px;}	
+	.portfolio-carousel .entry-detail > h6 span:after { right: 4px; top: 10px;}	
+	.portfolio-carousel .entry-detail > h6 span:before{ left:4px; top:10px;}	
+	.portfolio-carousel .entry-detail > h6:before{ top:12px;}	
+	.portfolio-carousel .entry-detail > p { line-height: 24px;}	
+	.portfolio-carousel .entry-detail ul li{ padding:-10px 0 15px;}
+	
+	.nopost, .dt-load-more, .receipe-details .dt-sc-button { font-size: 14px;}
+	
+	.receipies, .menu, .kitchen, .special, .news, .contact{ padding: 50px 0;}
+	
+	.main-title { padding: 0;}	
+	.main-title h2 { font-size: 30px;}	
+	.main-title p { font-size: 20px;}	
+	.main-title > p:before, .main-title > p:after { display: none;}
+	
+	.dt-sc-sorting-container { text-align: center;}
+	
+	#receipes .dt-sc-sorting-container a { border: medium none; float: none; display: inline-block; font-size: 14px; line-height: 40px; padding: 0 0 20px;}
+	
+	.portfolio-thumb { margin-right: 0; width: 95%; margin-bottom:30px;}	
+	.portfolio-thumb > a { width: 93%;}	
+	.portfolio-details { width: 100%;}	
+	.portfolio-details > h2 { font-size: 16px; line-height: 24px; width: 100%;}		
+	.portfolio-details .post-meta .author-thumb span { margin-left: 5px;}	
+	.portfolio-details .post-meta p { line-height: 25px; margin: 0 15px 15px 0;}
+	
+	.post-meta { margin-bottom: 0;}
+		
+	.portfolio-details > p{ line-height:24px;}	
+	.portfolio-details .dt-sc-button { padding: 10px 7px; margin-right: 10px;}	
+	.portfolio-details a.dt-sc-button, .dt-sc-button.order-now:hover { font-size: 14px;}
+	
+	.menu-item-list p { line-height: 22px;}
+	
+	.dt-sc-menuitems-carousel-wrapper > ul { display: none !important;}
+	
+	.team-content .column { margin: 0;}
+	
+	.intro-text > h5 { font-size: 20px; line-height: 28px;}
+	
+	.news-letter .newsletter-text { line-height: 26px;}
+	
+	.menu-item-list .caroufredsel_wrapper { height: 900px !important;}
+	
+	.catelog-menu { width: 100%;}	
+	.catelog-thumb { margin: 0 10px 0 0; width: 35%;}	
+	.catelog-menu h5 { font-size: 12px;}		
+	.catelog-menu .price { font-size: 14px;}
+		
+	.categories-img a { font-size: 11px;}
+	
+	.carousel-arrows .prev-arrow { left: 2px;}	
+	.carousel-arrows .next-arrow { right: 2px;}
+	
+	#news .carousel-arrows a { bottom: 322px;}
+	
+	.dt-sc-team { width: 100%;}	
+	.dt-sc-team .team-thumb > img, .receipe-slider .receipe-thumb a img { transform: scale(1.17); -webkit-transform: scale(1.17); -moz-transform: scale(1.17); -o-transform: scale(1.17); -ms-transform: scale(1.17);}
+	
+	.dt-sc-social-icons > a { margin: 0 10px;}
+	
+	.dt-sc-team .team-detail p { margin-bottom: 40px;}	
+	.dt-sc-team .image-overlay { height: 158px; width: 158px;}	
+	.dt-sc-team figure .dt-sc-social-icons{ left:47%;}	
+	.dt-sc-team figcaption h2 { font-size: 12px; line-height: 12px;}
+	
+	.dt-sc-custom-service > h5 { font-size: 18px; margin-top: 30px; text-align: center; width: 100%;}	
+	.dt-sc-custom-service a { margin-left: 0;}	
+	.dt-sc-custom-service > h5:before { left: 0; margin: 0 auto; right: 0; top: -70px;}
+	
+	.dt-sc-icon-content > p { margin-bottom: 40px;}
+	
+	.hexagon-shapes:before { display: none;}	
+	.hexagon-shapes { width: 68%;}
+	
+	.hotel-booking .dt-sc-button.medium { padding: 15px 21px;}
+	
+	.dt-sc-custom-service { margin-bottom: 10px;}
+	
+	.events-detail { margin-top: 10px;}
+	
+	.entry-title > h5, .entry-title > h6, .team-detail > h5, .team-detail > h6, .team-detail p { text-align: center;}
+	
+	.enquiry-form textarea, .enquiry-form input {  width: 100%;}
+		
+	.mailchimp-form { width: 100%; text-align: center;}	
+	.mailchimp-form input[type="email"] { width: 100%;}
+	
+	.news-letter .mailchimp-form > input[type="email"] { margin-bottom: 15px; padding: 15px 0 15px 12px; width: 100%;}	
+	.news-letter .mailchimp-form .dt-sc-button { position: relative; padding:12px 15px; font-size: 14px; float: none;}
+	
+	.receipe-details > h2, .blog-entry .receipe-details h2 { font-size: 16px; line-height: 24px; margin-top: 30px; margin-bottom: 12px;}	
+	.receipe-thumb { margin-bottom: 25px;}	
+	.receipe-slider iframe { height: 135px;}
+	
+	.post-meta p, .post-meta p a { font-size: 11px; margin-bottom: 0;}
+	
+	.receipe-details .post-meta .date, .post-meta .author, .widget_recent_entries ul li p.date { margin: 0 1px 0 0; padding: 0 14px 0 0;}	
+	.receipe-details .post-meta p span { font-size: 15px;}
+	
+	.slider-controls{ margin-top:0;}
+	
+	.menu-item-list .slider-controls { margin-top: 60px;}
+	
+	.mailchimp-form input[type="submit"], .enquiry-form p input[type="submit"] { font-size: 12px; padding: 14px 10px; right: 0;}
+	
+	.contact-form .enquiry-form p input[type="submit"]:hover { font-size: 12px;}
+	
+	.dt-sc-testimonial blockquote q{ font-size:13px; line-height:19px;}
+	
+	#footer .copyright:after { display: none;}
+	
+	.dt-sc-sociable-icons > li:first-child { margin: 0;}	
+	.dt-sc-sociable-icons > li { margin: 0 0 0 16px;}
+	
+	.flickr_badge_image { margin: 0 -6px 5px 0;}	
+	.flickr_badge_image img { max-width: 82%;}
+	
+	#contact .dt-sc-social-icons li a { height: 38px; line-height: 38px; width: 38px;}
+	
+	.map-overlay { position: relative; background: none repeat scroll 0 0 transparent;}
+	
+	.contact-info .dt-sc-button { font-size: 14px;}	
+	.contact-info, .contact-form { width: 100%; padding: 20px;}	
+	.contact-info h3, .contact-form > h3 { font-size: 18px;}	
+	.contact-info ul li i { font-size: 12px; margin-right: 5px;}	
+	.contact-info li a { font-size: 13px;}
+	
+	.contact-form:after, .contact-info:after { background: none repeat scroll 0 0 rgba(137, 85, 41, 0.6);}
+	
+	.dt-sc-call-us { font-size: 14px;}
+
+	.switcher { display: none;}
+	
+	.widget{ padding-bottom:25px;}
+	
+	#footer .carousel-arrows a { top: 250px;}
+	
+	.widget h3.widgettitle { font-size:22px;}
+	
+	.dt-sc-partner-carousel-wrapper { margin-bottom: 30px;}
+	
+	#my_twitter-3.widget ul { margin-bottom: 0;}
+	
+	.copyright-content { float: none; text-align: center;}
+	
+	/**Blog page**/
+	
+	#primary, #secondary { width: 100%;}
+	
+	#primary.with-right-sidebar, #primary.with-left-sidebar { margin-bottom: 50px; margin-right: 0;}
+	
+	.blog-entry .receipe-thumb { margin-bottom: 20px;}
+	
+	.commententries { text-align: center;}	
+	.commententries h4 { text-align: left;}
+	
+	ul.commentlist {   margin: 20px 0;}	
+	ul.commentlist li { padding: 105px 0 0;}
+
+	ul.commentlist li .comment-author { right: 0; top: 0;}	
+	ul.commentlist li .comment-author img { display: inline-block; float: none;}	
+	ul.commentlist li .author-name { text-align: center;}	
+	ul.commentlist li .comment-content { margin-bottom: 40px;}	
+	
+	.author-name > a { width: 100%;}	
+	.author-name > span { display: none;}
+	
+	.receipe-details > p { line-height: 20px; margin-bottom: 15px;}	
+	
+	.blog-entry blockquote, .blog-entry blockquote q { font-size: 15px; line-height: 24px; margin-bottom: 7px; }	
+	
+	.commententries h4, #respond h3, .post-author-details h3 { font-size: 20px;}
+	
+	.entry-author-image { margin: 0; text-align: center; width: 100%;}
+	
+	.blog-entry { margin: 0 0 30px;}
+	
+	#respond p.form-submit .dt-sc-button { font-size: 14px;}
+	
+	.author-title { text-align: center;}
+	
+	.author-desc { width: 100%;}	
+	.author-desc h5 { float: none; margin: 0; text-align: center;}
+	
+	#secondary h3.widgettitle { padding: 15px 0;}
+	
+	.popular-posts-widget .catelog-thumb { margin: 0 8px 0 0;}	
+	.popular-posts-widget .categories-img { width: 55%;}	
+	.popular-posts-widget .catelog-menu .price { font-size: 14px;}
+
+	.widgettitle > span { font-size: 18px; padding: 0 0 0 10px;}
+	
+	.related-posts-widget h2, .popular-posts-widget h2 { font-size: 15px; margin-bottom: 10px;}
+	
+	.widget_recent_entries ul li h4 { font-size: 14px;}
+	
+	.recent-posts-widget ul li .post-meta p span { font-size: 14px;}
+	
+	#search-form .dt-sc-button { font-size: 16px; line-height: 18px; padding: 14px 15px; text-shadow: none;}
+	
+	/**Recipe page**/
+	
+	.recipe-info > li {    border-right: 0 none;}
+	
+	ul.dt-sc-tabs-frame li, .woocommerce-tabs ul.tabs li { display: inline-block; width: 100%;}	
+	ul.dt-sc-tabs-frame li { border-bottom: 1px solid #ffffff; width: 100%;}
+	ul.dt-sc-tabs-frame li a, .woocommerce-tabs ul.tabs li a { box-sizing: border-box; display: inline-block; width: 100%;}	
+	ul.dt-sc-tabs-frame li a { display: block; float: none;}
+	ul.dt-sc-tabs-frame > li:first-child { border-width: 1px;}	
+	.dt-sc-tabs-frame-content h2 { margin-bottom: 10px;}
+	
+	/**Boxed**/
+	
+	.boxed #header:before { width: 97.5%;}
+	
+}
+
+@media only screen and (max-width: 280px) {
+	
+	.container , .boxed .container , .boxed .wrapper .banner .container  { width:200px; }	
+	
+	.fullwidthbanner-container .parallax-spacing address { font-size: 15px;}
+	
+	#header .container, .boxed .wrapper, .boxed #header { width: 100%;}
+	
+	#scrolldown a .fa{ font-size: 25px;}
+	
+	.sb-slidebar { display: none !important;}
+	
+	.fullwidthbanner-container h2 { font-size: 24px; line-height: 37px; margin: 0; padding-bottom: 5px;}
+	
+	.portfolio-thumb { width: 90%;}
+	
+	.dt-sc-portfolio-carousel-wrapper .carousel-arrows a { bottom: 266px;}
+	
+	.portfolio-carousel .banner-post:hover .post-thumb { height: 148px;}	
+	.portfolio-carousel .entry-detail > h6 span { font-size: 10px;}	
+	.portfolio-carousel .entry-detail > p { font-size: 12px; line-height: 20px;}	
+	.portfolio-details a.dt-sc-button, .dt-sc-button.order-now:hover { font-size: 13px;}
+	
+	.receipe-details .dt-sc-button, .dt-sc-button.nopost, .dt-sc-button.dt-load-more { font-size: 13px; padding: 10px 7px;}
+	
+	.intro-text > p { margin-bottom: 15px;}
+	.intro-text > h5 { font-size: 16px; line-height: 24px; margin-bottom: 20px;}
+	
+	.portfolio-details .post-meta .author-thumb span { margin-left: 30px;}
+	
+	.author-thumb > a { line-height: 45px;}
+	
+	#header .float-right { float: none; margin: 0; padding: 0;}
+	
+	#menu-container:before, #menu-container:after { display: none;}
+	
+	nav#main-menu { display:none; }
+	
+	.dt-sc-sorting-container { margin-bottom: 25px; text-align: center;}
+	
+	.dt-sc-custom-service a { font-size: 15px; margin-left: 0;}
+	
+	.responsive-nav { display:block; width:100%;}
+	
+	.events-detail { margin-bottom: 0; margin-top: 10px;}
+	
+	.dt-sc-team .image-overlay { height: 146px; width: 146px;}
+	
+	.dt-sc-social-icons > a { margin: 0 8px;}
+	
+	.dt-sc-team .team-detail p:last-child { margin: 0;}
+	
+	.team-wrapper { margin: 0;}
+	
+	.carousel-arrows a { max-width: 16px;}
+	
+	#news .carousel-arrows a { bottom: 260px;}
+	
+	.contact-info ul li{ font-size: 11px;}
+	
+	.dt-sc-icon-content > p:last-child { margin-bottom: 0;}
+	
+	.receipe-slider iframe { height: 123px;}	
+	.receipe-details .post-meta .date, .post-meta .author, .widget_recent_entries ul li p.date { margin: 0 1px 0 0; padding: 0 8px 0 0;}
+	.receipe-details > h2 { font-size: 15px; line-height: 24px; margin-top: 25px;}
+	
+	#contact .dt-sc-hr-invisible-large { margin: 20px;}
+	
+	.contact-info h3, .contact-form > h3 { font-size: 14px;}	
+	.contact-info .dt-sc-button { font-size: 10px; padding: 10px 15px;}
+	
+	#kitchen .dt-sc-hr-invisible-large { margin: 20px 0 0;}
+	
+	.responsive-nav .open-nav ul { display:none; }
+	
+	#logo { text-align: center; width: 100%;}	
+	#logo img { float: none; max-width: 56%; padding-top: 29px;}
+	
+	.cover h1 { font-size: 20px; width: 70%;}
+	
+	.dt-sc-one-third, .dt-sc-one-half, .dt-sc-one-fourth, .dt-sc-two-third, .dt-sc-two-fifth, .dt-sc-one-fifth, .dt-sc-two-third, dt-sc-three-fourth, .dt-sc-three-fourth { width: 100%;}
+	
+	.column { margin-bottom: 20px; margin-left: 0;}
+	
+	.main-title h2 { font-size: 25px;}	
+	.main-title p { font-size: 20px; line-height: 34px;}
+	
+	.portfolio-details > h2{ font-size: 14px;}
+	
+	.map-overlay { padding: 25px 0;}
+	
+	#footer:after { background-position: 52% 78%; background-size: 69% 66%;}
+		
+	.underline { background-position: 100% 100%; background-size: 95% auto; width: 100%;}
+	
+	.widget h3.widgettitle { font-size: 20px;}
+	
+	.footer-widget-wrapper .dt-sc-partner-carousel-wrapper .caroufredsel_wrapper { height: 265px !important;}
+	
+	#footer .carousel-arrows a { top: 280px;}
+	
+	.dt-sc-call-us { font-size: 12px;}
+	
+	.dt-sc-sociable-icons > li { margin: 0 0 0 10px;}
+	
+	.portfolio-details .order-now { margin: 0;}	
+	.portfolio-details a.dt-sc-button{ margin-right:3px; font-size: 13px;}
+	
+	.dt-sc-menuitems-carousel-wrapper > ul { display: none !important;}
+	
+	/* Blog-page */
+	
+	.widget.widget_tag_cloud .tagcloud a { margin: 0 3px 3px 0;}
+	
+	.mailchimp-form input[type="email"] { font-size: 10px; line-height: 16px; width: 100%;}
+	
+	#my_flickr-5 .flickrs .flickr_badge_image a { width: 85%; float: left;}
+	
+	.flickr_badge_image { margin: 0 -14px 5px 0;}
+	
+}
+
+@media all and (max-width: 320px) and (orientation : landscape) {
+	
+	.dt-style-picker-wrapper { top: 70px;}	
+	
+	#scrolldown a .fa{ font-size: 30px;}
+	
+	.fullwidthbanner-container .parallax-spacing address { font-size: 15px; line-height: 22px;}	
+	.fullwidthbanner-container h2 { font-size: 25px; line-height: 36px;}
+	
+	.news-letter .mailchimp-form .dt-sc-button, .receipe-details .dt-sc-button { font-size: 14px;}
+	
+	.sb-slidebar { display: none !important;}
+}
+	
+
+	.meanmenu-reveal span { background: none repeat scroll 0 0 #472400; display: block; height: 2px; margin-top: 3px; width: 20px;}
+	
+	.responsive-nav .meanmenu-reveal > a {color: #323232; cursor: pointer; display: block; font-size: 1px; font-weight: 700; height: 22px; line-height: 22px; padding: 28px 18px; position: absolute; right: 0; text-decoration: none; 
+	top: 0; width: 22px; z-index: 9999;}
+	
+	.meanmenu-reveal ul { list-style-type: none; margin: 0; padding: 0; width: 100%;}
+	
+	.meanmenu-reveal ul li { float: left; padding-bottom: 0; position: relative; width: 100%;}
+	
+	.meanmenu-reveal ul li { top: 60px;}
+	
+	.meanmenu-reveal ul li a { background: none repeat scroll 0 0 #472400; border-bottom: 1px solid rgba(255, 255, 255, 0.5); color: #ffffff; display: block; float: left; margin: 0; padding: 1em 5%; text-align: left; 
+	text-decoration: none; text-transform: uppercase; width: 90%;}
+	
+	.meanmenu-reveal ul li a:hover { background: none repeat scroll 0 0 #ffffff; color: #472400;}
+	
+	.meanmenu-reveal ul li a:hover { box-shadow: 0 0 0 1px #664620 inset;}
+	
+	.responsive-nav .meanmenu-icon.close-nav { color: #472400; font-size: 18px; left: auto; right: 0; text-indent: 0;}
+
+

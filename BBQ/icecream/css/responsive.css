@@ -1,0 +1,907 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and (min-width:1121px) and (max-width:1399px) {
+	
+	.container {width:1060px;}
+	
+	.boxed .wrapper, .boxed #header , .boxed #header.dt-sticky-menu, .boxed .is-sticky header .dt-sticky-menu { width:1080px; }
+	
+	#logo { width: 22%;}
+	
+	.cover h1 { width: 30%;}
+	
+	.responsive-nav { display:none; }
+	
+	#main-menu .group.right-nav { right: 90px;}	
+	#main-menu ul li { margin-left: 6px;}	
+
+	.banner-post { width: 92%;}
+	.banner-post .post-thumb img { width: 100%;}
+	
+	.portfolio-carousel .banner-post:hover .post-thumb { height: 185px;}
+	
+	.fullwidthbanner-container h2 { margin: 0; padding-bottom: 30px;}	
+	
+	.image-overlay { height: 215px; left: 0; top: 14px; width: 215px;}
+	
+	.dt-sc-custom-service > h5{ width:54%;}
+	
+	.receipe-slider iframe { height: 200px;}
+	
+	.slider-controls{ margin-top:0;}
+	
+	.carousel-arrows .prev-arrow { left: 25px; }	
+	.carousel-arrows .next-arrow { right: 25px;}
+	
+	#news .carousel-arrows a { bottom: 315px;}
+	
+	.carousel-arrows a img { max-width: 80%;}
+	
+	.menu-item-list .slider-controls { margin-top: 60px;}
+	
+	.contact-info, .contact-form { width: 90%;}
+	
+	#map { height: 500px;}
+	
+	.dt-sc-appicons .app-links { width: 44%;}
+	
+	.map-overlay { padding: 70px 0 80px;}
+
+	.mailchimp-form > input[type="email"] { width: 80%;}
+	
+	.contact-form .enquiry-form p input[type="submit"]:hover { font-size: 17px;}
+	
+	.mailchimp-form input.medium { padding: 12px 30px;}
+	
+}
+
+@media only screen and (min-width:960px) and (max-width:1120px) {
+	
+	.container { width:900px; }
+	
+	/*----*****---- << boxed >> ----*****----*/	
+	
+	.boxed .wrapper, .boxed #header { width:968px; }
+	
+	.boxed .wrapper .banner .container , .banner .caption h2 , .boxed .no-header-bg #header-sticky-wrapper.sticky-wrapper header.dt-sticky-menu .container { width:900px; }
+	.boxed #header.dt-sticky-menu, .boxed .is-sticky header .dt-sticky-menu , .boxed .wrapper { width:968px; }	
+	
+	.boxed #menu-container { width: 99%;}
+	
+	/*----*****---- << boxed-Ends >> ----*****----*/		
+	
+	#logo { left: 10px; width: 24%;}
+	
+	.cover h1 { width: 40%;}
+	
+	.responsive-nav { display:none; }
+	
+	#main-menu .group.left-nav { left: 5px;}	
+	#main-menu .group.right-nav { margin: 0; right: 70px;}	
+	#main-menu ul li { margin-left: 15px; }
+	#main-menu ul li a { font-size: 15px; }
+	
+	.banner-post { width: 92%;}
+	
+	.fullwidthbanner-container h2 { margin: 0; padding-bottom: 30px;}
+	
+	.portfolio-carousel .banner-post:hover .post-thumb { height: 185px;}
+	
+	.banner-post .post-thumb img { width: 100%;}
+	
+	.main-title > p:before, .main-title > p:after{ width:28%;}
+	
+	.dt-sc-portfolio-carousel-wrapper .carousel-arrows .prev-arrow { left: 5px;}	
+	.dt-sc-portfolio-carousel-wrapper .carousel-arrows .next-arrow { right: 5px;}
+	
+	.dt-sc-team { width: 100%;}
+	
+	.image-overlay { height: 198px; width: 198px;}
+	
+	.dt-sc-social-icons a { margin: 0 16px;}
+	
+	.image-overlay { height: 202px; width: 202px;}
+	
+	.post-button { margin-bottom: 20px;}
+	
+	.contact-form .enquiry-form p input[type="submit"]:hover { font-size: 17px; }
+	
+	.news-letter .mailchimp-form > input[type="email"] { float: right; left: 0; width: 435px;}	
+	.news-letter .mailchimp-form .dt-sc-button { padding: 18px 15px; right: 0;}
+	
+	.slider-controls{ margin-top:0;}
+	
+	.receipe-thumb iframe { height: 190px;}
+	
+	.carousel-arrows a img{ max-width: 25px;}
+	
+	#news .carousel-arrows a { bottom: 346px;}
+	
+	.carousel-arrows .prev-arrow, .boxed .carousel-arrows .prev-arrow { left: 0; }	
+	.carousel-arrows .next-arrow, .boxed .carousel-arrows .next-arrow { right: 0; }
+	
+	.menu-item-list .slider-controls { margin-top: 60px;}
+	
+	.timeline { left: 12px;}
+	
+	.testimonial .underline, .testimonial .post-meta { margin-bottom: 10px;}
+	
+	.dt-sc-icon-details { padding-left: 20px;}
+
+	.dt-sc-custom-service > h5{ width:58%;}
+	
+	.contact-info, .contact-form { width: 90%;}	
+	.contact-info h3, .contact-form > h3 { margin-bottom: 10px;}
+	
+	.map-overlay { padding: 50px 0 80px;}
+	
+	.dt-sc-portfolio-carousel-wrapper .carousel-arrows a{ width:30px;}
+	
+	.mailchimp-form > input[type="email"] { width: 80.7%;}
+	
+	.dt-sc-appicons .app-links { margin: 0 8px 10px 0; width: 47%;}
+	
+	/* Blog-page */
+
+	#primary { width: 670px;}
+
+	#primary.with-right-sidebar { margin-right: 30px; width: 65%;}
+	
+	#secondary { width: 30%;}
+	
+	.entry-author-image { float: left; margin-right: 20px;}
+	
+	.author-desc { width: 78%;}
+	
+	#search-form input[type="email"] { width: 100%;}	
+	#search-form .dt-sc-button { font-size: 16px; line-height: 18px; padding: 14px 18px; text-shadow: none;}
+
+}
+
+@media only screen and (min-width:768px) and (max-width:959px) {
+	
+	.container { width:710px; }	
+	
+	.dt-sc-one-fourth { margin-bottom: 25px; width: 48%;}	
+	.dt-sc-two-fifth { width: 35.8%;}	
+	.dt-sc-one-fifth { width: 24.3%;}
+		
+	.responsive-nav .open-nav ul { display:none; }	
+	.responsive-nav { display:none; }
+	
+	#main-menu .group.left-nav { left: 15px;}	
+	#main-menu .group.right-nav { margin: 0; right: 5px;}	
+	#main-menu ul li { margin: 0 15px 0 0;}
+	#main-menu ul li a { font-size: 14px;}
+	
+	.main-title > p:before, .main-title > p:after{ width:24%;}
+	
+	#menu-container { width:99%;}	
+	#menu-container:before{ left:-28px;}	
+	#menu-container:after{ right:-20px;}
+	
+	/*----*****---- << boxed >> ----*****----*/	
+	
+	.container , .boxed .wrapper .banner .container , .boxed .no-header-bg #header-sticky-wrapper.sticky-wrapper header.dt-sticky-menu .container { width:710px; }
+	.boxed #header.dt-sticky-menu, .boxed .is-sticky header .dt-sticky-menu , .boxed .wrapper  { width:740px; }
+	
+	.boxed #header { width: 98.6%;}	
+	.boxed #main-menu .group.right-nav { margin: 0; right: 0;}	
+	.boxed .dt-sc-portfolio-carousel-wrapper .carousel-arrows .prev-arrow { left: 10px;}	
+	.boxed .dt-sc-portfolio-carousel-wrapper .carousel-arrows .next-arrow { right: 10px;}
+	
+	/*----*****---- << boxed-ends >> ----*****----*/
+	
+	.fullwidthbanner-container h2 { font-size: 45px; margin: 0; padding-bottom: 30px;}
+	
+	#main-content { padding: 0;}
+	
+	.cover h1 { width: 48%;}
+	
+	.welcome-text h3 { line-height: 30px;}
+	
+	.carousel-arrows a { max-width: 22px;}
+	
+	.dt-sc-team { width: 100%;}
+	
+	.dt-sc-social-icons a { margin:0 10px;}
+	
+	.dt-sc-team:hover .team-thumb img { transform: scale(1.3); -moz-transform: scale(1.3); -webkit-transform: scale(1.3); -o-transform: scale(1.3); -ms-transform: scale(1.3);}
+	
+	.image-overlay { height: 163px; width: 163px;}
+	
+	.carousel-arrows .prev-arrow, .boxed .carousel-arrows .prev-arrow { left: 0;}	
+	.carousel-arrows .next-arrow, .boxed .carousel-arrows .next-arrow { right: 0;}
+	
+	.receipe-details .post-meta p span { font-size: 15px;}	
+	.receipe-details > h2 { font-size: 16px;}
+	
+	.timeline { left: 5px;}
+	
+	.dt-sc-icon-details{ padding-left: 12px;}	
+	.dt-sc-icon-content .dt-sc-icon-details p { font-size: 13px;}
+		
+	.entry-title > h5, .entry-title > h6, .team-detail > h5, .team-detail > h6, .dt-sc-team p { text-align: center;}
+	
+	.testimonial h4 { margin-bottom: 20px;}
+	
+	.post-button { margin-bottom: 20px;}
+	
+	.news-letter .newsletter-text { line-height: 25px;}	
+	.news-letter .mailchimp-form > input[type="email"] { float: left; left: 112px; width: 370px;}	
+	.news-letter .mailchimp-form .dt-sc-button { padding: 18px 15px; right: 60px;}
+	
+	.receipe-thumb iframe { height: 148px;}
+	
+	.slider-controls{ margin-top:0;}
+	
+	.menu-item-list .slider-controls { margin-top: 60px;}
+	
+	.dt-sc-custom-service > h5{ width:75%;}
+	
+	.contact-form .enquiry-form p input[type="submit"]:hover { font-size: 14px;}
+	
+	.map-overlay { padding: 90px 0 100px;}	
+	.map-overlay .container { width: 90%;}
+	
+	.contact-info, .contact-form { padding: 15px 20px; width: 90%;}
+	
+	#map { height: 500px;}
+	
+	.contact-info h3, .contact-form > h3 { margin-bottom: 15px;}
+	
+	.dt-sc-appicons .app-links { margin: 0 5px 10px 0; width: 47%;}
+	
+	.hotel-booking > ul { margin: 0 0 10px;}
+
+	.mailchimp-form { width: 92%;}	
+	.mailchimp-form > input[type="email"] { margin-bottom: 5px; padding: 15px 0 15px 12px;}	
+	.mailchimp-form input[type="submit"], .enquiry-form p input[type="submit"] { font-size: 14px; padding: 13px 5px;}
+	
+	.dt-sc-testimonial blockquote q { line-height:21px;}
+	
+	#news .carousel-arrows a { bottom: 372px;}
+	
+	.widget-title{ font-size: 20px;}
+	
+	.footer-widgets .widget a { font-size: 14px;}
+	
+	/* Blog-page */
+	
+	#primary.with-right-sidebar { margin-right: 30px; width: 65%;}
+	
+	#secondary { width: 30%;}
+	
+	.blog-entry .receipe-details h2 { font-size: 20px;}
+	
+	.commententries h4, #respond h3, .post-author-details h3 { font-size: 22px;}
+	
+	.author-desc { float: left; width: 75%;}
+	
+	.entry-author-image { float: left; margin-right: 15px;}
+	
+	#secondary h3.widgettitle { padding: 15px 0;}
+
+	.widgettitle > span { font-size: 18px; padding: 0 0 0 10px;}
+	
+	.related-posts-widget h2, .popular-posts-widget h2 { font-size: 16px; margin-bottom: 10px;}
+	
+	.widget.widget_recent_entries .recent-posts-widget .post-thumb { width: 60px; margin: 0 8px 0 0;}
+	
+	#secondary .widget_recent_entries ul li { padding: 5px 0;}
+	
+	#search-form .dt-sc-button { font-size: 16px; line-height: 14px; padding: 14px 15px; text-shadow: none;}	
+	#search-form > input { font-size: 11px;}
+	
+	.flickr_badge_image { float: left; margin: 0 12px 7px 0; padding: 0; width: 28%;}
+	
+	.receipe-details .post-meta .date, .post-meta .author, .widget_recent_entries ul li p.date { float: left; font-size: 11px; margin: 0 4px 0 0; padding: 0 5px 0 0;}
+	
+	.widget_recent_entries ul li h4 { font-size: 15px; margin-bottom: 0; text-transform: none;}
+
+}	
+	
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	.container { width:420px; }	
+	
+	.banner-content { top:12%;}	
+	.banner-content h3 { font-size: 24px; top: 1em;}	
+	.banner-content p { font-size: 15px; padding: 5px 15px;}
+	
+	nav#main-menu { display:none; }
+	
+	.responsive-nav { display:block; }	
+	.responsive-nav .open-nav ul { display:none; }
+	
+	.fullwidthbanner-container h2 { font-size: 35px; line-height: 54px; margin: 0; padding-bottom: 30px;}	
+	
+	.carousel-arrows a { max-width: 30px;}
+	
+	#header .container, .boxed .wrapper, .boxed #header { width: 100%;}
+	
+	#menu-container:before, #menu-container:after { display: none;}
+	
+	.carousel-arrows .prev-arrow { left: 10px;}	
+	.carousel-arrows .next-arrow { right: 10px;}
+	
+	#logo img { float: none;}
+	
+	.cover h1 { font-size: 25px; line-height: 10px; width: 45%;}
+	
+	#header .float-right { float: none; margin: 0; padding: 0;}
+	
+    #logo { text-align: center; width: 120px;}
+	
+	.main-title > p:before, .main-title > p:after { display: none;}	
+	
+	.dt-sc-one-third, .dt-sc-one-half, .dt-sc-one-fourth, .dt-sc-two-fifth, .dt-sc-one-fifth { width: 100%;}
+	
+	.column { margin-bottom: 20px; margin-left: 0;}
+	
+	.welcome-text { margin-bottom: 40px;}	
+	.welcome-text .dt-sc-button { margin-bottom: 20px;}	
+	.welcome-text .icecone {    background-position: 50% center;}
+	.welcome-text h3 { margin-bottom: 30px;}	
+	.welcome-text-detail > h3 { margin-bottom: 40px;}
+	
+	.dt-sc-sorting-container { text-align: center; margin-bottom: 30px;}	
+	.dt-sc-sorting-container a { font-size:18px; padding: 24px 14px;}
+	
+	.dt-sc-team { width: 100%;}
+	
+	.team-thumb { width: 50%;}	
+	.team-wrapper { margin-bottom: 20px;}
+	
+	.dt-sc-team .image-overlay { height: 237px; width: 237px;}	
+	.dt-sc-team .team-detail p { margin-bottom: 40px;}
+	
+	.testimonial h4{ margin-bottom: 20px;}
+	
+	.timeline { left: 10px;}
+	
+	.dt-sc-icon-details { padding-left: 20px;}
+	
+	.news-letter .newsletter-text { line-height: 25px;}
+	
+	.dt-sc-custom-service > h5 { font-size: 28px; margin-top: 30px; text-align: center; width: 100%;}	
+	.dt-sc-custom-service > h5:before { left: 0; margin: 0 auto; right: 0; top: -70px;}
+	
+	.entry-title > h5, .entry-title > h6, .team-detail > h5, .team-detail > h6, .team-detail p { text-align: center;}
+	
+	.news-letter .mailchimp-form > input[type="email"] { width: 100%;}
+	
+	.dt-sc-icon-content > p { margin-bottom: 40px;}
+	
+	.receipe-slider iframe { height: 270px;}	
+	.receipe-slider .receipe-thumb a img{ width:100%;}	
+	.receipe-details > h6 { width: 100%;}
+	
+	.mailchimp-form { width: 100%;}	
+	.mailchimp-form input[type="email"], .enquiry-form textarea, .enquiry-form input { width: 100%;}	
+	.mailchimp-form > input[type="email"] { margin-bottom: 5px; padding: 15px 0 15px 12px;}	
+	.mailchimp-form input[type="submit"], .enquiry-form p input[type="submit"] { font-size: 14px; padding: 13px 30px;}
+	
+	.enquiry-form p textarea { height: 126px;}
+	
+	.slider-controls{ margin-top:0;}
+	
+	.menu-item-list .slider-controls { margin-top: 60px;}
+
+	.contact-form .enquiry-form p input[type="submit"]:hover { font-size: 14px; }
+	
+	.widget{ padding-bottom:25px;}
+	
+	#my_twitter-3.widget ul { margin-bottom: 0;}
+	
+	#news .carousel-arrows a { bottom: 290px;}
+	
+	.carousel-arrows a img { max-width: 30px;}
+	
+	#footer:after{ display:none;}
+	
+	.footer-top-links{ text-align:center;}
+	
+	.dt-sc-sociable-icons { margin-bottom: -20px; width: 100%;}	
+	.dt-sc-sociable-icons > li { display: inline-block; float: none;}	
+	.dt-sc-sociable-icons > li:first-child{ margin:0;}
+	
+	.map-overlay .container { width: 95%;}
+	.map-overlay .dt-sc-one-half { width: 50%;}
+	
+	.hotel-booking ul li p { font-size: 11px;}
+	
+	.contact-info, .contact-form { width: 90%; padding: 22px 20px;}	
+	.contact-info h3, .contact-form > h3 { margin-bottom: 12px; font-size: 16px;}	
+	.contact-info ul { margin-bottom: 20px;}	
+	.contact-info ul li i { font-size: 11px; margin-right: 5px;}	
+	.contact-info li a { font-size: 12px;}
+	
+	.hotel-booking ul { margin: 0 0 8px;}
+	
+	.contact-form .enquiry-form p input[type="submit"], .contact-form .enquiry-form p input[type="submit"]:hover { font-size: 14px;}
+	
+	#contact .dt-sc-social-icons li a, .dt-sc-tabs-frame-content .dt-sc-social-icons li a { height: 45px; line-height: 45px; width: 45px;}
+	
+	.dt-sc-w-hours .day { padding-right: 2px;}
+	
+	.contact-info ul li i { margin-right: 5px;}
+	
+	#map { height: 490px;}
+	
+	.map-overlay { padding: 95px 0 60px;}
+	
+	.footer-top-links .call-us{ width:100%;}
+		
+	#footer .footer-widgets{ padding-top:60px;}	
+	#footer .copyright:after { display: none;}
+		
+	.copyright-content { float: none; text-align: center;}
+	
+	/**Blog page**/
+	
+	#primary { margin: 0 0 30px; width: 100%;}
+	
+	#secondary { width: 100%;}
+	
+	.blog-entry .receipe-details h2 { font-size: 18px; margin-bottom: 15px;}
+	
+	.author-desc { float: left; width: 100%;}
+	
+	.post-author-details { text-align: center;}
+	
+	.entry-author-image { float: none; margin: 0; width: 100%;}
+	
+	.author-desc h5 { float: none;}
+	
+	.commententries h4, #respond h3, .post-author-details h3 { font-size: 22px; text-align: left;}	
+	
+	#secondary h3.widgettitle { padding: 15px 0;}
+
+	.widgettitle > span { font-size: 18px; padding: 0 0 0 10px;}
+	
+	.related-posts-widget h2, .popular-posts-widget h2 { margin-bottom: 15px;}
+	
+	.author-name > a { font-size: 14px;}
+	
+	ul.commentlist li .commentmetadata { font-size: 12px;}
+	
+	#search-form .dt-sc-button { line-height: 16px;}
+	
+	.widget.widget_recent_entries .recent-posts-widget .post-thumb { width: 83px;}
+	
+	.dt-sc-appicons .app-links { margin: 0 5px 10px 0; width: 46%;}
+	
+}
+
+@media only screen and (max-width: 479px) {
+	
+	.container { width:220px; }
+	
+	#header .container, .boxed .wrapper, .boxed #header { width: 100%;}	
+	#header .float-right { float: none; margin: 0; padding: 0;}
+		
+	#menu-container:before, #menu-container:after { display: none;}
+	
+	nav#main-menu { display:none; }
+	
+	.responsive-nav { display:block; width:100%;}	
+	.responsive-nav .open-nav ul { display:none; }
+	
+	#logo { text-align: center; width: 100%;}	
+	#logo img { float: none; max-width: 120px;}
+	
+	.cover h1 { font-size: 20px; width: 70%; line-height: 10px;}	
+	
+	.dt-sc-one-third, .dt-sc-one-half, .dt-sc-one-fourth, .dt-sc-two-third, .dt-sc-two-fifth, .dt-sc-one-fifth { width: 100%;}
+	
+	.column { margin-bottom: 20px; margin-left: 0;}
+	
+	#home { margin: 0 0 -30px; padding: 0 0 30px;}
+	
+	.fullwidthbanner-container h2 { font-size: 30px; line-height: 42px; margin: 0; padding-bottom: 5px;}
+	
+	.dt-sc-portfolio-carousel-wrapper .carousel-arrows .prev-arrow{ left:2px;}	
+	.dt-sc-portfolio-carousel-wrapper .carousel-arrows .next-arrow { right: 2px;}
+	
+	.portfolio-carousel .column { margin-left: 20px;}
+	
+	.carousel-arrows a { max-width: 25px;}
+	
+	.receipies, .menu, .kitchen, .special, .news, .contact{ padding: 50px 0;}
+	
+	.main-title h2 { font-size: 30px;}	
+	.main-title p { font-size: 20px;}	
+	.main-title > p:before, .main-title > p:after { display: none;}
+	
+	.welcome-text { margin-bottom: 40px;}	
+	.welcome-text .dt-sc-button { margin-bottom: 20px;}	
+	.welcome-text h3 { margin-bottom: 15px;}	
+	.welcome-text .icecone { background-position: 60% 100%;}	
+	.welcome-text-detail > h3, .welcome-text h3, .border-title h2 { font-size: 20px; line-height: 25px;}
+	.welcome-text-detail > h3 { margin-bottom: 40px;}	
+	.welcome-text .icecone { background-position: 50% center;}
+	
+	.dt-sc-sorting-container { text-align: center; margin-bottom: 30px;}	
+	.dt-sc-sorting-container a { border: medium none; float: none; font-size: 15px; line-height: 40px; margin: 0 0 3px; padding: 0 7px;}
+		
+	.post-meta { margin-bottom: 0;}
+	
+	#news .carousel-arrows a { bottom: 322px;}
+	
+	.receipe-details > h2, .blog-entry .receipe-details h2 { font-size: 16px; line-height: 24px; margin-top: 30px; margin-bottom: 12px;}	
+	.receipe-thumb {    margin-bottom: 25px;}
+	
+	.post-meta p, .post-meta p a { font-size: 11px; margin-bottom: 0;}
+	
+	.news-letter .newsletter-text { line-height: 24px;}	
+	
+	.menu-item-list p { line-height: 22px;}
+	
+	.catelog-menu { width: 100%;}
+	
+	.categories-img a { font-size: 11px;}
+	
+	.carousel-arrows .prev-arrow { left: 2px;}	
+	.carousel-arrows .next-arrow { right: 2px;}
+	
+	.dt-sc-team { width: 100%;}	
+	.dt-sc-team:hover .team-thumb img { transform: scale(1.3); -moz-transform: scale(1.3); -webkit-transform: scale(1.3); -o-transform: scale(1.3); -ms-transform: scale(1.3);}
+	
+	.dt-sc-social-icons > a { margin: 0 10px;}
+	
+	.dt-sc-team .team-detail p { margin-bottom: 40px;}	
+	.dt-sc-team .image-overlay { height: 159px; width: 159px;}	
+	.dt-sc-team figure .dt-sc-social-icons{ left:47%;}	
+	.dt-sc-team figcaption h2 { font-size: 12px; line-height: 12px;}	
+	.dt-sc-custom-service > h5 { font-size: 18px; margin-top: 30px; text-align: center; width: 100%;}	
+	.dt-sc-custom-service > h5:before { left: 0; margin: 0 auto; right: 0; top: -70px;}	
+	.dt-sc-toggle-frame p.dt-sc-toggle-accordion a { font-size:14px;}
+	
+	.timeline { left:10px;}
+	
+	.dt-sc-icon-details { padding-left: 20px;}
+	
+	.border-title { margin-bottom: 20px;}
+	
+	.testimonial h4 { margin-bottom: 20px;}
+	
+	blockquote q{ line-height: 22px;}
+	
+	.dt-sc-star-icons{ border: none;}
+	
+	.testimonial .author-thumb { margin-bottom: 10px;}	
+	.testimonial .post-meta{ margin-bottom: 0;}
+	
+	.underline{ margin-bottom: 20px;}
+	
+	.post-button { font-size: 15px; padding: 5px 20px;}
+	
+	.special-detail{ margin-bottom: 0;}
+	
+	.hotel-booking .dt-sc-button.medium { padding: 15px 21px;}
+	
+	.dt-sc-custom-service { margin-bottom: 10px;}
+	
+	.events-detail { margin-top: 10px;}
+	
+	.receipe-details > p { line-height: 22px;}
+	
+	.entry-title > h5, .entry-title > h6, .team-detail > h5, .team-detail > h6, .team-detail p { text-align: center;}
+	
+	.mailchimp-form { width: 100%; text-align: center;}
+	
+	.enquiry-form textarea, .enquiry-form input {  width: 100%;}
+	
+	.mailchimp-form input[type="email"] { width: 100%;}
+	
+	.news-letter .mailchimp-form > input[type="email"] { margin-bottom: 15px; padding: 15px 0 15px 12px; width: 100%; border-radius: 0;}
+	
+	.news-letter .mailchimp-form .dt-sc-button { position: relative; padding:12px 15px; border-radius: 4px; float: none;}
+	
+	.receipe-details > h2 { margin-top: 30px;}		
+	.receipe-thumb { margin-bottom: 25px;}	
+	.receipe-slider iframe { height: 135px;}
+	
+	.post-meta p, .post-meta p a{ font-size:15px;}
+	
+	.slider-controls{ margin-top:0;}
+	
+	.menu-item-list .slider-controls { margin-top: 60px;}
+	
+	.mailchimp-form input[type="submit"], .enquiry-form p input[type="submit"] { font-size: 12px; padding: 14px 10px; right: 0;}
+	
+	.contact-form .enquiry-form p input[type="submit"], .contact-form .enquiry-form p input[type="submit"]:hover { font-size: 12px;}
+	
+	.dt-sc-testimonial blockquote q{ font-size:13px; line-height:19px;}
+	
+	.intro-text { margin: 0;}
+	
+	#footer:after { display: none;}
+	
+	.dt-sc-sociable-icons { float: left;}	
+	.dt-sc-sociable-icons > li:first-child { margin: 0;}
+	
+	#footer .footer-widgets { padding-top: 40px;}	
+	#footer .copyright:after { display: none;}
+		
+	#contact .dt-sc-social-icons li a { height: 38px; line-height: 38px; width: 38px;}
+	
+	.dt-sc-appicons, .dt-sc-appicons .app-links { margin: 0 0 10px;}	
+	.dt-sc-appicons .app-links { margin: 0 5px 10px 0; width: 45%;}
+	
+	.receipe-details .post-meta .date, .post-meta .author, .widget_recent_entries ul li p.date { margin: 0; padding: 0 10px 0 0;}
+	
+	.post-meta p, .post-meta p a { font-size: 11px; margin-bottom: 0;}
+	
+	.receipe-details .post-meta p span { font-size: 14px;}
+
+	.map-overlay { position: relative; background: none repeat scroll 0 0 transparent;}
+	
+	.contact-form:after, .contact-info:after { background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);}	
+	.contact-info, .contact-form { padding: 20px; width: 100%;}	
+	.contact-info ul li i { margin-right: 5px;}	
+	.contact-info li a { font-size: 13px;}
+
+	.switcher { display: none;}
+	
+	.flickr_badge_image { margin: 0 -6px 5px 0;}	
+	.flickr_badge_image img { max-width: 82%;}
+	
+	.widget{ padding-bottom:25px;}	
+	.widget-title { font-size: 20px; margin-bottom: 15px;}	
+	.widget h3.widgettitle { font-size:22px;}	
+	.widget-title { line-height: 30px;}	
+	.widget_text p { line-height: 22px;}
+	
+	.footer-widgets .widget_text .dt-sc-button { font-size: 14px; padding: 15px 22px;}
+	
+	.dt-sc-partner-carousel-wrapper { margin-bottom: 30px;}
+	
+	.carousel-arrows { bottom: -42px;}
+	
+	#my_twitter-3.widget ul { margin-bottom: 0;}
+	
+	.copyright-content { float: none; text-align: center;}
+	
+	/**Blog page**/
+	
+	#primary, #secondary { width: 100%;}
+	
+	#primary.with-right-sidebar, #primary.with-left-sidebar { margin-bottom: 50px; margin-right: 0;}
+	
+	.blog-entry .receipe-thumb { margin-bottom: 20px;}
+	
+	.commententries { text-align: center;}
+	
+	.commententries h4 { text-align: left;}
+	
+	ul.commentlist {   margin: 20px 0;}	
+	ul.commentlist li { padding: 105px 0 0;}
+	ul.commentlist li .comment-author { right: 0; top: 0;}	
+	ul.commentlist li .comment-author img { display: inline-block; float: none;}	
+	ul.commentlist li .author-name { text-align: center;}	
+	ul.commentlist li .comment-content { margin-bottom: 40px;}
+		
+	.author-name > a { width: 100%;}	
+	.author-name > span { display: none;}
+	
+	.receipe-details > p { line-height: 20px; margin-bottom: 15px;}	
+	
+	.blog-entry blockquote, .blog-entry blockquote q { font-size: 15px; line-height: 24px; margin-bottom: 7px;}	
+	
+	.commententries h4, #respond h3, .post-author-details h3 { font-size: 20px;}
+	
+	.author-desc { width: 100%;}
+	
+	.entry-author-image { margin: 0; text-align: center; width: 100%;}
+	
+	.blog-entry { margin: 0 0 30px;}
+	
+	#respond p.form-submit .dt-sc-button, #respond p.form-submit .dt-sc-button:hover { font-size: 14px;}
+	
+	.author-title { text-align: center;}
+	
+	.author-desc h5 { float: none; margin: 0; text-align: center;}
+	
+	#secondary h3.widgettitle { padding: 15px 0;}
+
+	.widgettitle > span { font-size: 18px; padding: 0 0 0 10px;}
+	
+	.related-posts-widget h2, .popular-posts-widget h2 { font-size: 15px; margin-bottom: 10px;}
+	
+	.widget_recent_entries ul li h4 { font-size: 14px;}
+	
+	.recent-posts-widget ul li .post-meta p span { font-size: 10px; margin-right: 3px;}
+	
+	#search-form .dt-sc-button { font-size: 16px; line-height: 18px; padding: 14px 15px; text-shadow: none;}	
+	
+	/**Recipe page**/
+	
+	.recipe-info > li {    border-right: 0 none;}
+	
+	ul.dt-sc-tabs-frame li, .woocommerce-tabs ul.tabs li { display: inline-block; width: 100%;}	
+	ul.dt-sc-tabs-frame li { border-bottom: 1px solid #ffffff; width: 100%;}	
+	ul.dt-sc-tabs-frame li a, .woocommerce-tabs ul.tabs li a { box-sizing: border-box; display: inline-block; width: 100%;}	
+	ul.dt-sc-tabs-frame li a { display: block; float: none;}	
+	ul.dt-sc-tabs-frame > li:first-child { border-width: 1px;}
+	
+	.dt-sc-tabs-frame-content h2 { margin-bottom: 10px;}
+	
+}
+
+@media only screen and (max-width: 280px) {
+	
+	.container , .boxed .container , .boxed .wrapper .banner .container  { width:200px; }	
+	
+	.fullwidthbanner-container .parallax-spacing address { font-size: 15px;}
+	
+	#header .container, .boxed .wrapper, .boxed #header { width: 100%;}
+	
+	#scrolldown a .fa{ font-size: 25px;}
+	
+	.style-picker-ico { top: -50px;}
+	
+	.fullwidthbanner-container h2 { font-size: 26px; line-height: 37px; margin: 0; padding-bottom: 5px;}
+	
+	.portfolio-thumb { width: 90%;}
+	
+	.portfolio-carousel .banner-post:hover .post-thumb { height: 148px;}	
+	.portfolio-carousel .entry-detail > h6 span { font-size: 10px;}	
+	.portfolio-carousel .entry-detail > p { font-size: 12px; line-height: 20px;}
+	
+	.portfolio-details a.dt-sc-button, .dt-sc-button.order-now:hover { font-size: 13px;}
+	
+	.catelog-thumb { width: 100%;}
+	
+	.welcome-text-detail > h3, .welcome-text h3, .border-title h2 { font-size: 18px;}
+	
+	.dt-sc-appicons .app-links { margin: 0 5px 10px 0; width: 45%;}
+	
+	.timeline { left: 0;}
+	
+	.dt-sc-icon-details { padding-left: 10px;}	
+	.dt-sc-icon-content .dt-sc-icon-details h5 { font-size: 15px;}	
+	.dt-sc-icon-content .dt-sc-icon-details p { font-size: 12px;}
+	
+	.dt-sc-toggle-frame p.dt-sc-toggle-accordion a { font-size: 14px; padding: 15px 10px;}	
+	.dt-sc-toggle-frame p.dt-sc-toggle-accordion:before { font-size: 15px; right: -5px; top: 0;}	
+	
+	.catelog-thumb:before { background-size: 185px 185px; height: 185px; width: 185px;}
+	
+	.receipe-details .dt-sc-button, .dt-sc-button.nopost, .dt-sc-button.dt-load-more { font-size: 13px; padding: 10px 7px;}
+	
+	.intro-text > p { margin-bottom: 15px;}
+	
+	.portfolio-details .post-meta .author-thumb span { margin-left: 30px;}
+	
+	.author-thumb > a { line-height: 45px;}
+	
+	#header .float-right { float: none; margin: 0; padding: 0;}
+	
+	#menu-container:before, #menu-container:after { display: none;}
+	
+	nav#main-menu { display:none; }
+	
+	.intro-text > h5 { font-size: 16px; line-height: 24px; margin-bottom: 20px;}
+	
+	.dt-sc-sorting-container { margin-bottom: 25px; text-align: center;}
+	
+	.dt-sc-custom-service a { font-size: 15px; margin-left: 0;}
+	
+	.responsive-nav { display:block; width:100%;}
+	
+	.events-detail { margin-bottom: 0; margin-top: 10px;}
+	
+	.dt-sc-team .image-overlay { height: 146px; width: 146px;}
+	
+	.dt-sc-social-icons > a { margin: 0 8px;}
+	
+	.dt-sc-team .team-detail p:last-child { margin: 0;}
+	
+	.team-wrapper { margin: 0;}
+	
+	.carousel-arrows a { max-width: 16px;}
+	
+	#news .dt-sc-service-carousel-wrapper .caroufredsel_wrapper { height: 625px;}
+	
+	.contact-info ul li{ font-size: 11px;}
+	
+	.dt-sc-icon-content > p:last-child { margin-bottom: 0;}
+	
+	.receipe-details .post-meta .date, .post-meta .author, .widget_recent_entries ul li p.date { margin: 0 1px 0 0; padding: 0 8px 0 0;}
+	
+	#contact .dt-sc-hr-invisible-large { margin: 20px;}
+	
+	.contact-info h3, .contact-form > h3 { font-size: 14px;}	
+	.contact-info .dt-sc-button { font-size: 10px; padding: 10px 15px;}
+		
+	.receipe-details > h2 { font-size: 15px; line-height: 24px; margin-top: 25px;}
+	
+	#kitchen .dt-sc-hr-invisible-large { margin: 20px 0 0;}
+	
+	.responsive-nav .open-nav ul { display:none; }
+	
+	#logo { text-align: center; width: 100%;}	
+	#logo img { float: none; max-width: 65%;}
+	
+	.cover h1 { font-size: 20px; width: 70%;}
+	
+	.dt-sc-one-third, .dt-sc-one-half, .dt-sc-one-fourth, .dt-sc-two-third, .dt-sc-two-fifth, .dt-sc-one-fifth, .dt-sc-two-third, dt-sc-three-fourth, .dt-sc-three-fourth { width: 100%;}
+	
+	.column { margin-bottom: 20px; margin-left: 0;}
+	
+	.main-title h2 { font-size: 25px;}	
+	.main-title p { font-size: 20px; line-height: 34px;}
+	
+	.portfolio-details > h2{ font-size: 14px;}
+	
+	.receipe-slider iframe { height: 123px;}
+	
+	#news .carousel-arrows a { bottom: 375px;}
+	
+	.map-overlay { padding: 25px 0;}
+	
+	#footer:after { background-position: 52% 78%; background-size: 69% 66%;}
+		
+	.underline { background-position: 100% 100%; background-size: 95% auto; width: 100%;}
+	
+	.widget h3.widgettitle { font-size: 20px;}
+	
+	.dt-sc-partner-carousel-wrapper .carousel-arrows { bottom: -60px;}
+	
+	.dt-sc-sociable-icons > li { margin: 0 0 0 10px;}
+	
+	.portfolio-details .order-now { margin: 0;}	
+	.portfolio-details a.dt-sc-button{ margin-right:3px; font-size: 13px;}
+	
+	.footer-top-links .call-us { text-align: center; width: 100%; font-size: 16px;}
+	
+	.dt-sc-sociable-icons { float: none; text-align: center;}	
+	.dt-sc-sociable-icons > li { display: inline-block; float: none;}
+	
+	.footer-top-links .column:nth-child(2) { margin: 0;}
+	
+	.widget-title { font-size: 18px; line-height: 15px; margin-bottom: 10px;}
+	
+	.footer-widgets .widget_text .dt-sc-button { font-size: 14px; padding: 12px 10px;}
+	
+	/* Blog-page */
+	
+	.widget.widget_tag_cloud .tagcloud a { margin: 0 3px 3px 0;}
+	
+	.mailchimp-form input[type="email"] { font-size: 10px; line-height: 16px; width: 100%;}
+	
+	#my_flickr-5 .flickrs .flickr_badge_image a { width: 85%; float: left;}
+	
+	.flickr_badge_image { margin: 0 -14px 5px 0;}
+	
+	.widget.widget_recent_entries .recent-posts-widget .post-thumb { margin: 0 7px 5px 0; width: 70px;}
+	
+	/* Boxed */
+	
+	.boxed .contact-info li { font-size: 12px;}	
+	.boxed .hotel-booking ul li p { font-size: 12px;}
+	
+}
+
+	.meanmenu-reveal span { background: none repeat scroll 0 0 #472400; display: block; height: 2px; margin-top: 3px; width: 20px;}
+	
+	.responsive-nav .meanmenu-reveal > a {color: #323232; cursor: pointer; display: block; font-size: 1px; font-weight: 700; height: 22px; line-height: 22px; padding: 22px 18px; position: absolute; right: 0; text-decoration: none; top: 0; width: 22px; z-index: 9999;}
+	
+	.meanmenu-reveal ul { list-style-type: none; margin: 0; padding: 0; width: 100%;}
+	
+	.meanmenu-reveal ul li { float: left; padding-bottom: 0; position: relative; width: 100%;}
+	
+	.meanmenu-reveal ul li { top: 60px; z-index: -1;}
+	
+	.meanmenu-reveal ul li a { background: none repeat scroll 0 0 #472400; border-bottom: 1px solid rgba(255, 255, 255, 0.5); color: #ffffff; display: block; float: left; margin: 0; padding: 1em 5%; text-align: left; text-decoration: none; text-transform: uppercase; width: 90%;}
+	
+	.meanmenu-reveal ul li a:hover { background: none repeat scroll 0 0 #ffffff; color: #472400;}
+	
+	.meanmenu-reveal ul li a:hover { box-shadow: 0 0 0 1px #664620 inset;}
+	
+	.responsive-nav .meanmenu-icon.close-nav { color: #472400; font-size: 18px; left: auto; right: 0; text-indent: 0;}
+
+
