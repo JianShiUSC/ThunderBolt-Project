@@ -1,10 +1,10 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-  
+
 /*
 
-Folks - Responsive Creative Template 
+Folks - Responsive Creative Template
 
 Content Tabel
 +---------------+
@@ -12,7 +12,7 @@ Content Tabel
 -General Classes
 -Elements
 -Common-Stuff
- 
+
 */
 
 
@@ -47,7 +47,7 @@ body.loadpage:after{
   	font-size: 48px;
   	text-align: center;
   	margin-top: -20px;
-  	z-index: 9999;  	
+  	z-index: 9999;
 	-webkit-animation: fa-spin 2s infinite linear;
 	animation: fa-spin 2s infinite linear;
 }
@@ -288,13 +288,13 @@ button.trigger span::before {
 #primary-navigation .navbar-inner{
 	background: #FFF;
 	border-width: 0 0 1px;
-	border-style: solid; 
+	border-style: solid;
 	line-height: inherit;
 	 -webkit-transition: all 0.3s;
     transition: all 0.3s;
 }
 .home_v6 #primary-navigation .navbar-inner{
-	border-width: 0; 
+	border-width: 0;
 	line-height: inherit !important;
 	margin-bottom: 50px;
 	padding-top: 20px;
@@ -311,7 +311,7 @@ button.trigger span::before {
 }
 .navbar-header{
 	border-width: 0;
-	border-style: solid;  
+	border-style: solid;
 }
 .dropdown-menu {
   position: absolute;
@@ -386,7 +386,7 @@ button.trigger span::before {
     position: relative;
 }
 
-.navbar-nav > li > a:hover, 
+.navbar-nav > li > a:hover,
 .navbar-nav > li > a:focus{
 	background: none;
 }
@@ -398,11 +398,11 @@ button.trigger span::before {
 	height: 1px;
 	content: '';
 	opacity: 0;
-	
+
 	-webkit-transition: all 0.2s;
 	-moz-transition: all 0.2s;
     transition: all 0.2s;
-	
+
 	-webkit-transform: scale(0, 1);
 	-moz-transform: scale(0, 1);
 	transform: scale(0, 1);
@@ -411,7 +411,7 @@ button.trigger span::before {
 	bottom: 15px;
 	transform: scale(0, 1);
 }
-.navbar .navbar-nav > li > a:hover::AFTER, 
+.navbar .navbar-nav > li > a:hover::AFTER,
 .navbar .navbar-nav > li > a:focus::AFTER,
 .navbar .navbar-nav > li.active > a::AFTER{
 	opacity: 1;
@@ -477,7 +477,7 @@ button.trigger span::before {
 	border-width: 0 1px 0 0;
 }
 .cbp-spmenu .navbar-nav > li > a{
-	margin: 0;	
+	margin: 0;
 	border-width: 0;
 }
 .cbp-spmenu a{
@@ -588,7 +588,7 @@ button.trigger span::before {
 	-webkit-animation-name: backTop; /* Chrome, Safari, Opera */
     -webkit-animation-duration: 0.6s; /* Chrome, Safari, Opera */
     animation-name: backTop;
-    animation-duration: 0.6s;	
+    animation-duration: 0.6s;
 }
 .readMore .loadMore i{
 	font-size: 14px;
@@ -712,17 +712,17 @@ section.portfolio_v4 .portfolio-post{
 	left: 0;
 	width: 100%;
 	height: 4px;
-	
+
 	opacity: 0;
 	-webkit-transition: all 0.25s ease 0s;
 	-moz-transition: all 0.25s ease 0s;
 	transition: all 0.25s ease 0s;
-	
+
 	-webkit-transform: translateY(-15px);
 	-moz-transform: translateY(-15px);
 	transform: translateY(-15px);
 }
-#filters li:hover button::AFTER, 
+#filters li:hover button::AFTER,
 #filters li:focus button::AFTER,
 #filters li.active button::AFTER{
 	opacity: 1;
@@ -796,7 +796,7 @@ section.portfolio figure{
 	height: 100%;
 }
 section.portfolio img{
-	
+
 }
 .home_v3 section.portfolio img{
 	height: auto;
@@ -924,7 +924,7 @@ section.portfolio_v3 .sectionTitle{
 }
 section.portfolio_v3 .portfolio-innner{
 	border-width: 1px 0;
-	border-style: solid; 
+	border-style: solid;
 }
 section.portfolio_v3 .row > [class^="col-"]{
 	border-width: 1px 0 0 1px;
@@ -1221,7 +1221,7 @@ section.ourVision aside{
 /* Section Why to choose us */
 .home_v2 section.whyTCUs{
 	border-width: 0 0 1px;
-	border-style: solid;	
+	border-style: solid;
 }
 section.whyTCUs .sectionTitle{
 	margin-bottom: 20px;
@@ -1285,7 +1285,7 @@ section.journal .sectionTitle{
 }
 .home_v2 section.journal .sectionTitle{
 	text-align: center;
-	display: block;	
+	display: block;
 	color: #FFF;
 }
 .home_v2 .journal .post{
@@ -1417,7 +1417,7 @@ section.journal_v2 blockquote{
 	border: 0;
 }
 section.journal_v2 blockquote:before{
-	
+
 	display: block;
     font-family: 'themify';
     content:"\e67e";
@@ -1453,13 +1453,13 @@ section.single .entry-meta{
     float: left;
 }
 section.single .meta-stuck{
-	position: fixed;	
+	position: fixed;
 	top: 63px;
-	
+
 	-ms-transform: scale(1,1); /* IE 9 */
     -webkit-transform: scale(1,1); /* Chrome, Safari, Opera */
     transform: scale(1,1);
-    
+
 	-webkit-transition: all 0.25s;
     transition: all 0.25s;
 }
@@ -1492,7 +1492,7 @@ section.single .entry-meta a.avatar{
    	margin-right: 20px;
 }
 section.single .entry-meta .catTime{
-	
+
 }
 section.single .entry-meta .cat-links {
     margin-right: 10px;
@@ -1584,7 +1584,7 @@ section.single .meta-nav a.next span{
   min-height: 150px;
   resize: vertical;
 }
-	
+
 /* Section Services */
 section.services .sectionTitle{
 	text-align: center;
@@ -1604,7 +1604,7 @@ section.services h5 i{
     margin-right: 10px;
 }
 section.services aside{
-	margin-bottom: 40px;	
+	margin-bottom: 40px;
 }
 
 section.services p{
@@ -1679,7 +1679,7 @@ section.visitUs .readMore a:after{
 }
 section.visitUs .readMore a:after{
 	left: auto;
-	right: -100%;	
+	right: -100%;
 }
 /* Section Contact */
 section.contact{
@@ -1691,7 +1691,7 @@ section.contact .sectionTitle{
 	margin: 0 auto 20px;
 }
 section.contact_v2 .sectionTitle{
-	
+
 }
 section.contact .subtitle{
 	max-width: 580px;
@@ -1734,7 +1734,7 @@ section.contact .field textarea{
 
 /* List Demo */
 section.list-demo{
-	
+
 }
 section.list-demo .list-demo-inner{
 	border-style: solid;
@@ -1752,7 +1752,7 @@ section.list-demo .row > [class^="col-"]:nth-child(3n+1) {
 section.list-demo .row > [class^="col-"]:nth-child(1) {
     border-width: 0;
 }
-section.list-demo .row > [class^="col-"]:nth-child(2), 
+section.list-demo .row > [class^="col-"]:nth-child(2),
 section.list-demo .row > [class^="col-"]:nth-child(3){
 	border-width: 0 0 0 1px
 }
@@ -1883,7 +1883,7 @@ figure a{
 	display: inline;
 }
 figure a img{
-	
+
 }
 figure a:hover img{
 	opacity: 0.4
@@ -1986,8 +1986,8 @@ section.visitUs{
 @font-face {
 	font-family: 'Conv_Montserrat-Hairline';
 	src: url('../fonts/Montserrat-Hairline.eot');
-	src: url('../fonts/Montserrat-Hairline.woff') format('woff'), 
-		url('../fonts/Montserrat-Hairline.ttf') format('truetype'), 
+	src: url('../fonts/Montserrat-Hairline.woff') format('woff'),
+		url('../fonts/Montserrat-Hairline.ttf') format('truetype'),
 		url('../fonts/Montserrat-Hairline.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
